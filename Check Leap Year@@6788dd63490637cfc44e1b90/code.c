@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
-    scanf("%d",&a,&b);
+    int a;
+    scanf("%d",&a);
     if(a % 400 == 0)
     printf("Not a leap year");
     else if(a % 100 ==0)
