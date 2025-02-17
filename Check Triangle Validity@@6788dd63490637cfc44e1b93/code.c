@@ -3,7 +3,7 @@ int main()
 {
     float a,b,c;
     scanf("%f",&a,&b,&c);
-    if(c*c=a*a+b*b)
+    if(c*c == a*a+b*b)
     printf("Valid")
     else
     printf("Invalid")
