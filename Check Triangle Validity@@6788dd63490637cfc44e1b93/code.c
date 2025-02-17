@@ -3,9 +3,9 @@ int main()
 {
     float a,b,c;
     scanf("%f",&a,&b,&c);
-    if(c*c == a*a+b*b)
-    printf("Valid")
+    if(c*c == a*a + b*b)
+    printf("Valid");
     else
-    printf("Invalid")
+    printf("Invalid");
     return 0;
 }
