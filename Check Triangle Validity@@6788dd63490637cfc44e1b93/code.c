@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    float a,b,c;
+    int a,b,c;
+    printf("");
     scanf("%f%f%f",&a,&b,&c);
     if(c*c == a*a + b*b)
     printf("Valid");
