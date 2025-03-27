@@ -7,4 +7,6 @@ int main() {
     if (num & 0x80000000)
         printf("Set\n");
     else
-        printf("
+        printf("Not Set\n");
+    return 0;
+}
