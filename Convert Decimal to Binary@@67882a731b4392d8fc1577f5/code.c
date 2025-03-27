@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    undesgined int num;
+    int num;
     scanf("%d", &num);
     if(num == 0) {
         printf("32\n");
