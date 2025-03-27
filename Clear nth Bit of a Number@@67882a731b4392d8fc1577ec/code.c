@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d", &num, &n);
 
     
-    num = num & ~(1 << n);
+    num = num & (1 << n);
 
     printf("%d\n", num);
     
